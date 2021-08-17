@@ -8,7 +8,7 @@ import java.util.Date;
 @Entity
 @Table(name = "post_votes")
 @Data
-public class PostVotes {
+public class PostVote {
 
     // id лайка/дизлайка
     @Id

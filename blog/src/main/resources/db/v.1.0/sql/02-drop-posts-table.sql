@@ -1,0 +1,10 @@
+ALTER TABLE posts
+DROP FOREIGN KEY fk_user_post
+GO
+
+ALTER TABLE posts
+DROP FOREIGN KEY fk_moderator_post
+GO
+
+DROP TABLE IF EXISTS posts
+GO

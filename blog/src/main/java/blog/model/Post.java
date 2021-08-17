@@ -58,7 +58,7 @@ public class Post {
 
     // Лайки/дизлайки на данном посте
     @OneToMany(mappedBy = "postId", cascade = CascadeType.ALL)
-    private List<PostVotes> postVotesList = new ArrayList<>();
+    private List<PostVote> postVotesList = new ArrayList<>();
 
     // Связь тэгов с постами
     @ManyToMany

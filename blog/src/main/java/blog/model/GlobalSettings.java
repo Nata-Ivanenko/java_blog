@@ -8,6 +8,7 @@ import lombok.ToString;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "global_settings")
 @Getter
 @Setter
 @ToString

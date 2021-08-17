@@ -56,7 +56,7 @@ public class User {
 
     // Лайки/дизлайки, которые поставил пользователь
     @OneToMany(mappedBy = "userId", cascade = CascadeType.ALL)
-    private List<PostVotes> postVotesList = new ArrayList<>();
+    private List<PostVote> postVotesList = new ArrayList<>();
 
     // автор комментариев
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)

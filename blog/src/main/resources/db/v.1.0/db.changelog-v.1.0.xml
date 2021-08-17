@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+
+    <!--сформируем структуру таблиц, которая подходит для нашего приложения-->
+    <include file="01-changeset-users-table.xml" relativeToChangelogFile="true"/>
+    <include file="02-changeset-posts-table.xml" relativeToChangelogFile="true"/>
+    <include file="03-changeset-post_comments-table.xml" relativeToChangelogFile="true"/>
+    <include file="04-changeset-post_votes-table.xml" relativeToChangelogFile="true"/>
+    <include file="05-changeset-tags-table.xml" relativeToChangelogFile="true"/>
+    <include file="06-changeset-tag_to_post-table.xml" relativeToChangelogFile="true"/>
+    <include file="07-changeset-captcha_codes-table.xml" relativeToChangelogFile="true"/>
+    <include file="08-changeset-global_settings-table.xml" relativeToChangelogFile="true"/>
+
+</databaseChangeLog>

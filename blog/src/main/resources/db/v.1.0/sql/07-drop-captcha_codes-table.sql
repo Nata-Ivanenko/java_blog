@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS captcha_codes
+GO

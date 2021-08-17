@@ -1,0 +1,29 @@
+SET FOREIGN_KEY_CHECKS = 0
+GO
+
+DELETE FROM captcha_codes
+GO
+
+DELETE FROM global_settings
+GO
+
+DELETE FROM tag_to_post
+GO
+
+DELETE FROM post_votes
+GO
+
+DELETE FROM tags
+GO
+
+DELETE FROM post_comments
+GO
+
+DELETE FROM posts
+GO
+
+DELETE FROM users
+GO
+
+SET FOREIGN_KEY_CHECKS = 1
+GO
